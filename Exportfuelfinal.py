@@ -5,7 +5,7 @@ Created on Thu Nov  9 13:17:30 2023
 @author: Aswini
 """
 
-import pandas as pd #Importing pandas for analysis
+import pandas as pd #Importing pandas
 import matplotlib.pyplot as plt #Importing matplotlib for Data Visualisation
 
 df = pd.read_csv("Assignmentfuel.csv", index_col=0) #Load data from CSV file
